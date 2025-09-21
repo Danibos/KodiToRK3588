@@ -2,7 +2,7 @@
 
 ## What does this script do?
 
-**KodiToRK3588.sh** is a fully automated setup tool to convert your Orange Pi 5 (or any RK3588 SBCC) into a modern Media Center and retro gaming station.
+**KodiToRK3588.sh** is a fully automated setup tool to convert your Orange Pi 5 (or any RK3588 SBC) into a modern Media Center and retro gaming station.
 Tested on Armbian 25.8.1 Noble Gnome with vendor kernel 6.1.115: https://www.armbian.com/orangepi-5/
 
 - Lets you choose **which version of Kodi to install** at launch: **Omega (v21, FFmpeg 6.0)** or **Piers (v22, FFmpeg 7.0)**
@@ -22,7 +22,9 @@ Tested on Armbian 25.8.1 Noble Gnome with vendor kernel 6.1.115: https://www.arm
 ## Quickstart
 
 download ths script, then:
+
 chmod +x KodiToRK3588.sh
+
 sudo ./KodiToRK3588.sh
 
 At the prompt, choose Omega or Piers and enter your Samba password when asked.
