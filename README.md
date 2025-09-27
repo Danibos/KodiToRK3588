@@ -25,7 +25,7 @@ download ths script, then:
 
 chmod +x KodiToRK3588.sh
 
-sudo ./KodiToRK3588.sh
+./KodiToRK3588.sh
 
 At the prompt, choose Omega or Piers and enter your Samba password when asked.
 When it's done, copy your ROMs to /media/$USER/ROMs
